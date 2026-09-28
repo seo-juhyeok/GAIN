@@ -105,6 +105,8 @@ $C_{k-1}(G)\setminus C_k(G)$
 
 기본 실행 형식은 다음과 같다.
 
+이때 data를 제외한 항목은 default값이 정해져 있어 반드시 있어야 하는 것은 아니다.
+
 ```bash id="81u9fw"
 python code/run_edgelist_experiments.py \
     --data dataset/facebook.txt.gz \
